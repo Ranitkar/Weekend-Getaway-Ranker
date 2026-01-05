@@ -34,7 +34,7 @@ A data engineering project that builds a travel recommendation engine using Pyth
 The core of this project is the weighted scoring formula. To ensure fair comparison, all metrics are normalized to a 0-1 scale.
 
 **The Formula:**
-```math
+```math'''
 Score = (0.3 \times Rating) + (0.2 \times Popularity) + (1.0 - (0.5 \times Distance))
 
 --- Top Weekend Getaways from Mumbai ---
